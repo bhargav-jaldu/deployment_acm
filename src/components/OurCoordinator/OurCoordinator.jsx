@@ -70,7 +70,7 @@ const OurCoordinator = () => {
                 <div className={styles.box3} data-aos="zoom-in">
                 <div className={styles.image}>
                 <div className={styles.imageContainer}>
-                        <img className={styles.image__img} style={{width: '300px'}}  src="https://vitap.ac.in/wp-content/uploads/2020/07/devarkonda-copy.jpg" alt="Nagaraju Devarkonda Prof" />
+                        <img className={styles.image__img}   src="https://vitap.ac.in/wp-content/uploads/2020/07/devarkonda-copy.jpg" alt="Nagaraju Devarkonda Prof" />
                     </div>
                     <div className={`${styles.image__overlay} ${styles.image__overlay__primary}`}>
                         <div className={styles.image__title}>Dr. Nagaraju Devarakonda </div>
@@ -153,7 +153,7 @@ const OurCoordinator = () => {
             <div className={styles.box3} data-aos="zoom-in">
             <div className={styles.image}>
             <div className={styles.imageContainer}>
-                    <img className={styles.image__img} style={{width: '300px'}}  src="https://media-exp1.licdn.com/dms/image/C5603AQH-3vDsIiwGCw/profile-displayphoto-shrink_800_800/0/1641002967570?e=1648080000&v=beta&t=s8mRZf_Rxg5Zy2kS8UbyhIZ9AoMyJmuztuHRKCVk8as" alt="Yagnesh" />
+                    <img className={styles.image__img}  src="https://media-exp1.licdn.com/dms/image/C5603AQH-3vDsIiwGCw/profile-displayphoto-shrink_800_800/0/1641002967570?e=1648080000&v=beta&t=s8mRZf_Rxg5Zy2kS8UbyhIZ9AoMyJmuztuHRKCVk8as" alt="Yagnesh" />
                 </div>
                 <div className={`${styles.image__overlay} ${styles.image__overlay__primary}`}>
                     <div className={styles.image__title}>C. Yagnesh </div>
