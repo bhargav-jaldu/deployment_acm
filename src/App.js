@@ -72,10 +72,10 @@ const upcomingEvent1 = {
         description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde porro culpa perspiciatis aliquam quidem ab, incidunt vitae eligendi illo similique exercitationem corrupti ad sunt. Laborum dolor officia aspernatur ratione perspiciatis consectetur similique optio minima accusamus, enim delectus corporis ullam obcaecati omnis a quisquam labore. Fugiat impedit a facere labore deleniti!",
         image1: "https://images.unsplash.com/photo-1641719516709-882d5ed5f66e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
         image2: "https://images.unsplash.com/photo-1641621393945-881745ee9978?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyNXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60",
-        date: 10,
-        hours: 22, 
-        minutes: 19,
-        seconds: 10
+        date: 23,
+        hours: 24, 
+        minutes: 0,
+        seconds: 0
     }
 
 

@@ -21,19 +21,19 @@ const ContactForm = () => {
     const [email, setMail] = useState('')
     const [message, setMessage] = useState('')
 
+    const [error, setError] = useState(false);
+
     const handleSubmit = (e) => {
         e.preventDefault()
-        // const formValues = new FormData();
 
-        // const name = name;
-        // const email = email;
-        // const message = message;
-
-
-        // formValues.append('name', name)
-        // formValues.append('email', email);
-        // formValues.append('message', message);
-// http://localhost:3001/
+        const pattern = '/^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/'
+        // || !pattern.match(email)
+        if(name.length === 0 || email.length === 0 || message.length === 0 ) {
+            setError(true)
+            return;
+        } else {
+            setError(false)
+            // http://localhost:3001/
         axios.post('https://acmcontact.herokuapp.com/', {
             name: name,email: email, message: message
         })
@@ -43,6 +43,7 @@ const ContactForm = () => {
         .catch(err => {
             console.log(err)
         })
+        }
     }
 
     return (
@@ -51,7 +52,14 @@ const ContactForm = () => {
                 <div className="underline"></div>
             </div>
         <div className={styles.container}>
-            <div className={styles.background}></div>
+            <div className={styles.background}>
+            {
+            error ? (
+            <h3 className={styles.error}>Please fill the Form...</h3> 
+             ) : 
+             ''
+        }
+            </div>
 
             <div className={styles.contactContainer} > {/* display: flex */}
                 <form onSubmit={(e) => handleSubmit(e)} className={styles.textFieldsContainer} data-aos="fade-right">
@@ -80,7 +88,7 @@ const ContactForm = () => {
                     </div>
                     <div className={styles.content}>
                         <EmailIcon />
-                        <p> &nbsp;john.19bce2902@vitap.ac.in</p>
+                        <p> &nbsp;acm.studentchapter@vitap.ac.in</p>
                     </div>
                     <div className={styles.content}>
                         <PhoneIcon />

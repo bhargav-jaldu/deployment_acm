@@ -24,6 +24,13 @@ body {
   height: 100px;
   background: var(--bg-box);
   border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background .error {
+  color: red;
 }
 
 .contactContainer {
@@ -38,7 +45,6 @@ body {
 }
 
 .textFieldsContainer {
-  background-color: #ffcfdf;
   background-image: linear-gradient(315deg, #ffcfdf 0%, #b0f3f1 74%);
   min-height: 70vh;
 
