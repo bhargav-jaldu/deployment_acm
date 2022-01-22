@@ -33,8 +33,8 @@ const ContactForm = () => {
         // formValues.append('name', name)
         // formValues.append('email', email);
         // formValues.append('message', message);
-
-        axios.post('http://localhost:3001/', {
+// http://localhost:3001/
+        axios.post('https://acmcontact.herokuapp.com/', {
             name: name,email: email, message: message
         })
         .then(res => {
