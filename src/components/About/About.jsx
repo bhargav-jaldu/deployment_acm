@@ -92,7 +92,7 @@ Dr. G. Viswanathan to improve the world through transformative education by fost
                         <Typography variant='body1' className={styles.point}>ACM-VITAP continues to pursue projects with diligence and ambition.Technology is their cause, objective, vision, and mission.</Typography>
                     </div>
 
-                    <button className={styles.join}>WhatsApp <ArrowForwardIosIcon style={{fontSize: '20px'}} /></button>
+                    <button className={styles.join}> <a href="https://chat.whatsapp.com/JOU6jHJNVPq2PZ8jO4iuOO" target="_blank">WhatsApp</a> <ArrowForwardIosIcon style={{fontSize: '20px'}} /></button>
                 </div>
 
                 <div className={styles.iframe} data-aos="fade-right">

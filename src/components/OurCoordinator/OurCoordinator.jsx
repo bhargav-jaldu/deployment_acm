@@ -4,6 +4,7 @@ import {Typography} from '@material-ui/core'
 import facebook from '../../svgs/facebook.png'
 import linkedin from '../../svgs/linkedin.png'
 import twitter from '../../svgs/twitter.png'
+import mail from '../../svgs/mail.png'
 // import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import Aos from 'aos'
 import "aos/dist/aos.css"
@@ -119,14 +120,14 @@ const OurCoordinator = () => {
                 <div className={styles.box5} data-aos="fade-right">
                     <Typography variant="h4" className={styles.titleBox}>Connect:</Typography>
                     <div className={styles.icons}>
-                        <div className={styles.images}>
+                        {/* <div className={styles.images}>
                             <a href="/#"><img src={facebook} alt="" /></a>
+                        </div> */}
+                        <div className={styles.images}>
+                            <a href="https://www.linkedin.com/in/dr-nagaraju-devarakonda-5a635a87/" target="_blank"><img src={linkedin} alt="" /></a>
                         </div>
                         <div className={styles.images}>
-                            <a href="/#"><img src={linkedin} alt="" /></a>
-                        </div>
-                        <div className={styles.images}>
-                            <a href="/#"><img src={twitter} alt="" /></a>
+                            <a href="https://twitter.com/dnr_anu" target="_blank"><img src={twitter} alt="" /></a>
                         </div>
                     </div>
                 </div>
@@ -203,14 +204,14 @@ const OurCoordinator = () => {
                 <Typography variant="h4">Connect:</Typography>
                 <div className={styles.icons}>
                     <div className={styles.images}>
-                        <a href="/#"><img src={facebook} alt="" /></a>
+                        <a href="yagneshnaidu1234@gmail.com" target="_blank"><img src={mail} alt="mail" /></a>
                     </div>
                     <div className={styles.images}>
-                        <a href="/#"><img src={linkedin} alt="" /></a>
+                        <a href="https://www.linkedin.com/in/yagnesh-732284g/" target="_blank"><img src={linkedin} alt="Linkdin" /></a>
                     </div>
-                    <div className={styles.images}>
-                        <a href="/#"><img src={twitter} alt="" /></a>
-                    </div>
+                    {/* <div className={styles.images}>
+                        <a href="/#"><img src={twitter} alt="twitter" /></a>
+                    </div> */}
                 </div>
             </div>
 
