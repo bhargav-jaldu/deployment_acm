@@ -67,7 +67,7 @@ Dr. G. Viswanathan to improve the world through transformative education by fost
                         <Typography variant='body1' className={styles.point}>Impact industry and society through innovative and collaborative work. To enhance core values like team work, Creativity, Sustainability, Accountability and Integrity among students.</Typography>
                     </div>
 
-                    <button className={styles.join}>LEARN MORE <ArrowForwardIosIcon style={{fontSize: '20px'}} /></button>
+                    <button className={styles.join}><a href="https://vitap.ac.in/" target="_blank">LEARN MORE</a> <ArrowForwardIosIcon style={{fontSize: '20px'}} /></button>
                 </div>
             </div>
 

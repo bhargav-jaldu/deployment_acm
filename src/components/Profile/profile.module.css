@@ -24,6 +24,9 @@ body {
 .opeartions {
   display: flex;
   justify-content: flex-end;
+  /* justify-content: space-between;
+  align-items: center;
+  height: 100%; */
   cursor: pointer;
   color: #ffac30;
 }
@@ -118,14 +121,14 @@ body {
 }
 
 .bgImageContainer {
-  width: 160px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
 
   position: absolute;
   top: 0;
   left: 0;
-  transform: translate(40%, 30%);
+  transform: translate(35%, 40%);
 }
 
 .profileImage {
@@ -178,6 +181,10 @@ body {
   align-items: space-between;
   /* margin-top: 20px; */
   background: white;
+  background: var(--gradient-text);
+  background: linear-gradient(135deg, #13f1fc, #0470dc);
+
+  /* background: #eea77fff; */
 }
 
 @media (max-width: 768px) {

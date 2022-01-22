@@ -94,8 +94,7 @@ const App = () => {
                     <div className="underline"></div>
                     <Typography variant="h6" className="tag">Click on the profile for more info</Typography>
                 </div>, 
-            <Profile data={techData} title={'Technical Department'} />,<Profile data={markData} title={'Marketing Department'}/>, <Footer />]} />
-
+            <Profile data={techData} title={'Technical Department'} />,<Profile data={markData} title={'Marketing Department'}/>,<Social /> , <Footer />]} />
             {/* more */}
                     <Route path='/more' element={[<MorePageNav />, <NewsLetter />, <Timeline  />,
                     <div className="title" id="upcomingEvents"><h1 className="upcomingheadingTitle">Upcoming Events</h1>
@@ -104,7 +103,7 @@ const App = () => {
                     <UpcomingEvents upcomingEvent = {upcomingEvent1} />,
                     <UpcomingEvents upcomingEvent = {upcomingEvent2} />,
                     <UpcomingEvents upcomingEvent = {upcomingEvent3} />,
-                    <Faq faq={faqData}/>, <ContactForm />, <Social /> , <Footer />]} />
+                    <Faq faq={faqData}/>, <ContactForm />, <Footer />]} />
                 </Routes>
             </Router>
         </div>

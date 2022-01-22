@@ -25,7 +25,7 @@ const MainPage = () => {
                 <span className={styles.circle}>
                     <span className={`${styles.icon} ${styles.arrow}`}></span>
                 </span>
-                <span className={styles.text}>EXPLORE MORE</span>
+                <span className={styles.text}><a href="#about">EXPLORE MORE</a></span>
             </button>
         </div>
     </div>

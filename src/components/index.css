@@ -34,7 +34,6 @@ button {
 }
 
 body {
-  background-color: #fff;
   font-family: "Roboto";
   /* background: #23204b; */
   background: var(--gradient-background);
@@ -66,6 +65,7 @@ body {
     rgba(0, 40, 83, 1) 0%,
     rgba(4, 12, 24, 1) 25%
   );
+  background-color: #fff;
 }
 
 .title {

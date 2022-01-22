@@ -53,6 +53,7 @@ const Profile = ({data, title}) => {
                         <div className={`${styles.container} ${styles.active}`} style={{transform: `translateX(${-idx * 320}px)`}} onClick={() => handleOpen(data.id)} >
                         <div className={styles.background}><Typography variant="h5" className={styles.name}>{data.name}</Typography></div>
                         <div className={styles.bgImageContainer}>
+                        {/* data.backgroundImage */}
                             <img src={data.backgroundImage} 
                             className={styles.profileImage}
                             alt="" />

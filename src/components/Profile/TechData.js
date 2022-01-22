@@ -1,9 +1,13 @@
+import chandra from './images/chandra.jpg'
+import yagnesh from './images/yagnesh.jpg'
+
+
 const techData = [
     {
         id: 1,
         tag: 'Web Developer',
-        backgroundImage: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGVvcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
-        name: 'John',
+        backgroundImage: chandra,
+        name: 'Chandra',
         description: 'Lorem ipsum dolor sit a and amet consectetur adipisicing elit. Consequuntur, ea?',
         facebook: '#',
         instagram: '#',
@@ -12,8 +16,8 @@ const techData = [
     {
         id: 2,
         tag: 'Frontend Developer',
-        backgroundImage: 'https://vitap.ac.in/wp-content/uploads/2019/06/Dr.-ANUPAMA-NAMBURU.jpg',
-        name: 'Sam',
+        backgroundImage: yagnesh,
+        name: 'Yagnesh',
         description: 'Lorem ipsum dolor sit a and amet consectetur adipisicing elit. Consequuntur, ea?',
         facebook: '#',
         instagram: '#',

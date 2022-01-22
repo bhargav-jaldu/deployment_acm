@@ -51,7 +51,13 @@
   color: #a9d118;
   font-size: 50px;
   font-weight: 300;
-  background: var(--gradient-text);
+  /* background: var(--gradient-text); */
+  background: linear-gradient(135deg, #13f1fc, #0470dc);
+
+  /* background: linear-gradient(135deg, #42e695, #3bb2b8);
+  background: linear-gradient(135deg, #fad961, #f76b1c);
+  background: linear-gradient(135deg, #13f1fc, #0470dc);
+  background: linear-gradient(135deg, #79cbca, #e684ae); */
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -91,7 +97,7 @@
   margin: 0px;
   white-space: nowrap;
   overflow: hidden;
-  animation: typing 4s steps(17, end) forwards, blink 1s infinite;
+  animation: typing 4s steps(17, end) forwards, 1s infinite;
 }
 
 @keyframes typing {
@@ -141,9 +147,13 @@
   font-size: 20px;
   font-weight: 300;
   letter-spacing: 1px;
-  background: var(--color-subtext);
+  /* background: var(--color-subtext); */
+  background: linear-gradient(135deg, #13f1fc, #0470dc);
+
+  /* background: linear-gradient(135deg, #13f1fc, #0470dc); */
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-weight: 400;
   /* font-weight: bold; */
 }
 
@@ -157,7 +167,10 @@
   border-radius: 1.625rem;
   transition: all 0.4s ease-in-out;
   /* border-image-source: linear-gradient(to left, #743ad5, #d53a9d); */
-  background: var(--color-subtext);
+  /* background: var(--color-subtext); */
+
+  /* background: linear-gradient(135deg, #13f1fc, #0470dc); */
+  background: linear-gradient(135deg, #13f1fc, #0470dc);
 }
 
 .icon {

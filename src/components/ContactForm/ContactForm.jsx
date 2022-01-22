@@ -1,12 +1,13 @@
 import { TextField } from '@material-ui/core'
-import React, {useEffect} from 'react'
+import React, {useState, useEffect} from 'react'
 import styles from './contactForm.module.css'
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import EmailIcon from '@mui/icons-material/Email';
 import PhoneIcon from '@mui/icons-material/Phone';
 import Aos from 'aos'
 import "aos/dist/aos.css"
-import { Typography } from '@material-ui/core';
+// import { Typography } from '@material-ui/core';
+import axios from 'axios'
 
 const ContactForm = () => {
 
@@ -15,6 +16,34 @@ const ContactForm = () => {
             duration: 2000
         })
     }, [])
+
+    const [name, setName] = useState('')
+    const [email, setMail] = useState('')
+    const [message, setMessage] = useState('')
+
+    const handleSubmit = (e) => {
+        e.preventDefault()
+        // const formValues = new FormData();
+
+        // const name = name;
+        // const email = email;
+        // const message = message;
+
+
+        // formValues.append('name', name)
+        // formValues.append('email', email);
+        // formValues.append('message', message);
+
+        axios.post('http://localhost:3001/', {
+            name: name,email: email, message: message
+        })
+        .then(res => {
+            console.log(res)
+        })
+        .catch(err => {
+            console.log(err)
+        })
+    }
 
     return (
         <div className={styles.wrapper}>
@@ -25,21 +54,21 @@ const ContactForm = () => {
             <div className={styles.background}></div>
 
             <div className={styles.contactContainer} > {/* display: flex */}
-                <div className={styles.textFieldsContainer} data-aos="fade-right">
+                <form onSubmit={(e) => handleSubmit(e)} className={styles.textFieldsContainer} data-aos="fade-right">
                     <h1>Get in Touch</h1>
                     <h4 style={{color: 'rgb(141, 141, 141)'}}>We're open to any suggestions or simply have a chat</h4>
 
-                    <TextField variant="outlined" label="Name: " fullWidth></TextField>
-                    <TextField variant="outlined" label="Mail: " fullWidth></TextField>
+                    <TextField variant="outlined" label="Name: " fullWidth onChange={(e) => setName(e.target.value)}></TextField>
+                    <TextField variant="outlined" label="Mail: " fullWidth onChange={(e) => setMail(e.target.value)}></TextField>
                     <TextField
                         variant="outlined" label="Message"
                         multiline
                         minRows={3}
                         maxRows={4}
-                    />
+                     onChange={(e) => setMessage(e.target.value)}/>
 
                     <button className={styles.button}>Send</button>
-                </div>
+                </form>
 
                 {/* infoContainer */}
                 <div className={styles.infoContainer} data-aos="fade-left">

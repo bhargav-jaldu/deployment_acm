@@ -51,6 +51,10 @@ body {
   font-size: 60px;
   font-weight: 300;
   background: var(--gradient-text);
+  /* background: linear-gradient(135deg, #42e695, #3bb2b8);
+  background: linear-gradient(135deg, #fad961, #f76b1c);
+  background: linear-gradient(135deg, #fad961, #f76b1c); */
+
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -186,6 +190,11 @@ iframe {
   align-items: center;
   background: var(--color-subtext);
   color: var(--color-footer);
+}
+
+.join a {
+  text-decoration: none;
+  color: black;
 }
 
 .join:hover {

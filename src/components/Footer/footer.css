@@ -46,12 +46,18 @@ footer {
   color: white;
   overflow-x: hidden;
   /* padding: 10vmin 18vmin; */
-  padding: 80px;
+  padding: 40px 40px 0 40px;
   background: var(--color-footer);
 }
 
 footer p > span {
   color: #ff512f;
+}
+
+.developed {
+  text-align: center;
+  padding-bottom: 40px;
+  background: var();
 }
 
 /*footer input {

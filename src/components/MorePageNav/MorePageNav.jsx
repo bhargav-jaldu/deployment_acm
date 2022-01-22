@@ -47,7 +47,7 @@ const MorePageNav = () => {
                 </div>
                 <div className={styles.text_typing}>
                     <h2>ACM VIT-AP</h2>
-                    <h4 style={{marginTop: '5px'}}>Student Chapter</h4>
+                    <h4 style={{marginTop: '5px'}} className={styles.sarada}>Student Chapter</h4>
                 </div>
 
             </div>

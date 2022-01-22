@@ -83,7 +83,7 @@ const Navigation = () => {
                 </div>
                 <div className={styles.text_typing}>
                     <h2>ACM VIT-AP</h2>
-                    <h4 style={{marginTop: '5px'}}>Student Chapter</h4>
+                    <h4 style={{marginTop: '5px'}} className={styles.sarada}>Student Chapter</h4>
                 </div>
 
             </div>
@@ -95,7 +95,7 @@ const Navigation = () => {
                 <li><a href="#ideology" className={ideology ? styles.active : ""} onClick={handleIdeology}> &nbsp;Our Ideology</a></li>
                 <li><a href="#events" className={events ? styles.active : ""} onClick={handleEvents}> &nbsp;Events</a></li>
                 <li><a href="#profile" className={crew ? styles.active : ""} onClick={handleCrew} > &nbsp;Our Crew</a></li>
-                <li className={styles.more}><Link className={styles.moreLink} to='/more' target="_blank"  ><p style={{color: 'black', fontStyle: 'uppercase'}}>More</p></Link></li>
+                <li className={styles.more}><Link className={styles.moreLink} to='/more' ><p style={{color: 'black', fontStyle: 'uppercase'}}>More</p></Link></li>
             </ul>
                 {/* <button className={showBurger ? `${styles.burger} ${styles.show}` : styles.burger} onClick={handleBurger}><i class="fas fa-bars"></i></button> */}
                 <button className={showTimes ? styles.times : `${styles.times} ${styles.show}`} onClick={handleBurger}><i className="fas fa-bars"></i></button>

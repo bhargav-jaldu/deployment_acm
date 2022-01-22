@@ -70,12 +70,17 @@ button {
 }
 
 .nav ul li a.active {
-  border-left: 3px solid var(--color-subtext);
+  border-left: 3px solid #0470dc;
   border-radius: 5px;
 }
 
 .text_typing h2 {
-  background: var(--gradient-text);
+  /* background: var(--gradient-text);
+  background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  /* background: linear-gradient(135deg, #42e695, #3bb2b8);
+  background: linear-gradient(135deg, #fad961, #f76b1c); */
+  background: linear-gradient(135deg, #13f1fc, #0470dc);
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -104,9 +109,17 @@ button {
   padding: 5px 10px;
   /* background-color: #a9d118; */
   border-radius: 5px;
-  background: var(--color-subtext);
+  /* background: var(--color-subtext); */
   color: var(--color-footer);
+  background: linear-gradient(135deg, #13f1fc, #0470dc);
   font-weight: 400;
+}
+
+.sarada {
+  background: linear-gradient(135deg, #13f1fc, #0470dc);
+  /* background: linear-gradient(135deg, #79cbca, #e684ae); */
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /* typing */
@@ -119,8 +132,9 @@ button {
   margin: 0px;
   white-space: nowrap;
   overflow: hidden;
-  animation: typing 4s steps(15, end) forwards, blink 1s infinite;
-  color: var(--color-subtext);
+  animation: typing 4s steps(15, end) forwards, blink 1s;
+  /* color: var(--color-subtext); */
+
   font-weight: 100;
 }
 
