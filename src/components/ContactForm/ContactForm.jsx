@@ -22,6 +22,7 @@ const ContactForm = () => {
     const [message, setMessage] = useState('')
 
     const [error, setError] = useState(false);
+    const [msg, setMsg] = useState(false);
 
     const handleSubmit = (e) => {
         e.preventDefault()
@@ -30,15 +31,23 @@ const ContactForm = () => {
         // || !pattern.match(email)
         if(name.length === 0 || email.length === 0 || message.length === 0 ) {
             setError(true)
+            setMsg(false)
             return;
         } else {
             setError(false)
             // http://localhost:3001/
-        axios.post('https://acmcontact.herokuapp.com/', {
+            // https://acmcontact.herokuapp.com/
+        axios.post('http://localhost:3001/', {
             name: name,email: email, message: message
         })
         .then(res => {
             console.log(res)
+            // setMsg(res.data.)
+            if(res.data.message === 'success') {
+                setMsg(true);
+            } else {
+                setMsg(false);
+            }
         })
         .catch(err => {
             console.log(err)
@@ -58,6 +67,12 @@ const ContactForm = () => {
             <h3 className={styles.error}>Please fill the Form...</h3> 
              ) : 
              ''
+        }
+
+        {
+            msg ? (
+                <h3 className={styles.success}>Sent Successfully!!!</h3>
+            ) : ''
         }
             </div>
 

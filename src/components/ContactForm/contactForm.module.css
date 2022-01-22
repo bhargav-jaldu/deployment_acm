@@ -142,3 +142,7 @@ textarea {
     font-size: 30px;
   }
 }
+
+.success {
+  color: green;
+}
