@@ -20,7 +20,7 @@ const UpcomingEvents = ({ upcomingEvent }) => {
     }, [])
     // { upcomingEvent }
     // title, description, image1, image2, hours, minutes, seconds
-    const {id, title, description, image1, image2, date, hours, minutes, seconds} = upcomingEvent;
+    const {id, title, description, image1, image2, date, hours, minutes, seconds, registerLink} = upcomingEvent;
 
     const DatehoursMinSecs = {date: date, hours: hours, minutes: minutes, seconds: seconds}
     return (
@@ -32,7 +32,7 @@ const UpcomingEvents = ({ upcomingEvent }) => {
             <div className={`${styles.part1} ${styles.borderRight}`} data-aos="fade-right">
                 <Typography variant="h3" className={styles.eventTitle}>{title}</Typography>
                 <Typography variant="body1" className={styles.content}>{description}</Typography>
-                <button className={styles.join}>Register <ArrowForwardIosIcon style={{fontSize: '17px'}} /></button>
+                <a href={registerLink} target="_blank"><button className={styles.join}>Register<ArrowForwardIosIcon style={{fontSize: '17px'}} /></button></a> 
             </div>
 
             {/* part 2 */}
@@ -73,7 +73,7 @@ const UpcomingEvents = ({ upcomingEvent }) => {
             <div className={`${styles.part1} ${styles.borderLeft}`} data-aos="fade-left">
                 <Typography variant="h3" className={styles.eventTitle}>{title}</Typography>
                 <Typography variant="body1" className={styles.content}>{description}</Typography>
-                <button className={styles.join}>Register <ArrowForwardIosIcon style={{fontSize: '17px'}} /></button>
+                <a href={registerLink} target="_blank"><button className={styles.join}>Register<ArrowForwardIosIcon style={{fontSize: '17px'}} /></button></a> 
             </div>
         </div>
             }

@@ -21,7 +21,7 @@ const Footer = () => {
 
       <div class="col-md-5 col-sm-5">
           <h4 class="text-light">Contact us</h4> <br />
-          <p class="text-muted">Follow us..Let us be Social!</p> <br />
+          {/* <p class="text-muted">Follow us..Let us be Social!</p> <br /> */}
           <h4>VIT-AP University, G-30, Inavolu, Beside AP <br/>  Secretariat Amaravati, Andhra Pradesh </h4>
           <h4>522237</h4><br />
           <h5>acm@gmail.com</h5> <br />
@@ -32,7 +32,7 @@ const Footer = () => {
         </div>
 
         <div className="developed">
-            <h3>Developed By <a href="https://www.linkedin.com/in/inukollu-yasas-chandra-490732120/" target="_blank">Yasas Inukollu</a> and <a href="https://www.linkedin.com/in/bhargav-jaldu-697488196/" target="_blank">Bhargav Jaldu</a> </h3>
+            <h3>Developed and Managing By <a href="https://www.linkedin.com/in/bhargav-jaldu-697488196/" target="_blank">Bhargav Jaldu</a>, <a href="https://www.linkedin.com/in/inukollu-yasas-chandra-490732120/" target="_blank">Yasas Inukollu</a> and <a href="https://kotakarthikreddy.github.io/" target="_blank">Kota Karthik</a> </h3>
         </div>
   </footer>
     )

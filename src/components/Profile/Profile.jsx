@@ -64,12 +64,15 @@ const Profile = ({data, title}) => {
                             {
     showPopId === data.id ? <div className={showPop ? styles.popup : `${styles.popup} ${styles.dontshow}`}>
     <button className={styles.closeBtn} onClick={() => setShowPop(!showPop)}><i class="fas fa-times"></i></button>
-    <h1>{data.name}</h1>
-    <h2 className={styles.popUptag}>{data.tag}</h2>
+    <h3>{data.name}</h3>
+    <h4 className={styles.popUptag}>{data.tag}</h4>
     {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores eum iste debitis corrupti temporibus eius similique sunt quia ullam necessitatibus?</p> */}
     <div className={styles.icons}>
-        <a href="#" className={styles.linkedin} ><i className="fab fa-linkedin-in"></i></a>
-        <a href="#" className={styles.instgram} ><i className="fab fa-instagram"></i></a>
+        <a href={data.linkedin} target="_blank" className={styles.linkedin} ><i className="fab fa-linkedin-in"></i></a>
+        <a href={data.instagram} target="_blank" className={styles.instgram} ><i className="fab fa-instagram"></i></a>
+        {
+            data.github ? <a href={data.github} target="_blank" className={styles.github} ><i class="fab fa-github"></i></a> : ''
+        }
     </div>
 </div>: ''
 }

@@ -92,6 +92,7 @@ body {
   align-items: center;
   padding: 10px 20px;
   transition: all 0.9s linear;
+  padding-top: 70px;
 }
 
 .popup > * {
@@ -152,6 +153,10 @@ body {
   color: red;
   padding: 10px 15px;
   border-radius: 50%;
+}
+
+.github {
+  color: black;
 }
 
 .name {
