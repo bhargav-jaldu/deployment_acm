@@ -16,7 +16,7 @@ body {
 }
 
 .proTit {
-  background: var(--color-subtext);
+  background: var(--gradient-text);
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }

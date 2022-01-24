@@ -105,10 +105,10 @@ const ContactForm = () => {
                         <EmailIcon />
                         <p> &nbsp;acm.studentchapter@vitap.ac.in</p>
                     </div>
-                    <div className={styles.content}>
+                    {/* <div className={styles.content}>
                         <PhoneIcon />
                         <p>+91 8392930023</p>
-                    </div>
+                    </div> */}
 
                     {/* <div className={styles.icons}>
                         <a href="#" style={{color: 'blue'}}><i className="fab fa-facebook"></i></a>

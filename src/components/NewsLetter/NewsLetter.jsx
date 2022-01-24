@@ -15,7 +15,7 @@ const NewsLetter = () => {
         <div className={styles.container} data-aos="zoom-out">
             <h1>News Letter</h1>
             <div className={styles.card} data-aos="fade-up">
-                <a href="/#" target="_blank">https://www.instagram.com/</a>
+                <a href="/#" target="_blank">https://www.instagram.com/acm_vitap/</a>
             </div>
         </div>
     )

@@ -1,12 +1,13 @@
 import bhargav from './DevelopedBy/bhargav.jpeg'
 import chandra from './DevelopedBy/chandra.jpeg'
 import Kota from './DevelopedBy/Kota.jpg'
+import bhargavProfile from './DevelopedBy/bhargavProfile.jpg'
 
 const developedBy = [
     {
         id: 1,
         tag: 'Technical Member',
-        backgroundImage: bhargav,
+        backgroundImage: bhargavProfile,
         name: 'Bhargav Jaldu',
         description: 'Lorem ipsum dolor sit a and amet consectetur adipisicing elit. Consequuntur, ea?',
         facebook: '#',

@@ -24,7 +24,7 @@ const Footer = () => {
           {/* <p class="text-muted">Follow us..Let us be Social!</p> <br /> */}
           <h4>VIT-AP University, G-30, Inavolu, Beside AP <br/>  Secretariat Amaravati, Andhra Pradesh </h4>
           <h4>522237</h4><br />
-          <h5>acm@gmail.com</h5> <br />
+          <h5>acm.studentchapter@gmail.com</h5> <br />
           <p><a href="https://chat.whatsapp.com/JOU6jHJNVPq2PZ8jO4iuOO">Whatsapp</a></p> <br />
           <p class="pt-4 text-muted">
           <span style={{fontFamily: 'Comfortaa', fontSize: '12px'}}>Copyright © 2022 by ACM Student Club</span></p> <br />

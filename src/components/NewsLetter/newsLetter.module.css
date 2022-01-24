@@ -22,7 +22,7 @@
   /* color: #ffac30; */
   background: var(--gradient-text);
   background-clip: text;
-  font-weight: 700;
+  /* font-weight: 700; */
   -webkit-text-fill-color: transparent;
 }
 
