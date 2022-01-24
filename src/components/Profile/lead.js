@@ -14,8 +14,9 @@ const lead =[
         name: 'Mahesh dasika',
         description: 'Lorem ipsum dolor sit a and amet consectetur adipisicing elit. Consequuntur, ea?',
         facebook: '#',
-        instagram: '#',
-        linkedin: '#'
+        instagram: 'https://www.instagram.com/__maheshd.__/',
+        linkedin: 'https://www.linkedin.com/in/mahesh-dasika-178b681b8/',
+        github: 'https://github.com/mahesh-11102'
     },
     {
         id: 2,
@@ -24,8 +25,9 @@ const lead =[
         name: 'Shankar jagatha',
         description: 'Lorem ipsum dolor sit a and amet consectetur adipisicing elit. Consequuntur, ea?',
         facebook: '#',
-        instagram: '#',
-        linkedin: '#'
+        instagram: 'https://www.instagram.com/shankar_jagatha/?hl=en',
+        linkedin: 'https://www.linkedin.com/in/shankar-jagatha-b05b52205/',
+        github: 'https://github.com/ShankarJagatha'
     },
     {
         id: 3,
@@ -34,8 +36,9 @@ const lead =[
         name: 'Harsha',
         description: 'Lorem ipsum dolor sit a and amet consectetur adipisicing elit. Consequuntur, ea?',
         facebook: '#',
-        instagram: '#',
-        linkedin: '#'
+        instagram: 'https://www.instagram.com/abhimanyu_.m/',
+        linkedin: 'https://in.linkedin.com/in/harsha-magapu-aba733196',
+        github: 'https://github.com/MagapuHarsha'
     },
     {
         id: 4,
@@ -44,8 +47,9 @@ const lead =[
         name: 'Likitha',
         description: 'Lorem ipsum dolor sit a and amet consectetur adipisicing elit. Consequuntur, ea?',
         facebook: '#',
-        instagram: '#',
-        linkedin: '#'
+        instagram: 'https://www.instagram.com/@likhita.srinivas/',
+        linkedin: 'https://www.linkedin.com/in/likhita-kommuri-327723212',
+        github: '#'
     },
     {
         id: 5,
@@ -55,7 +59,8 @@ const lead =[
         description: 'Lorem ipsum dolor sit a and amet consectetur adipisicing elit. Consequuntur, ea?',
         facebook: '#',
         instagram: '#',
-        linkedin: '#'
+        linkedin: 'https://www.linkedin.com/in/priyanka-batchu-38990822a',
+        github: 'https://github.com/BatchuPriyanka'
     },
     {
         id: 6,
@@ -64,8 +69,9 @@ const lead =[
         name: 'Yuva Teja',
         description: 'Lorem ipsum dolor sit a and amet consectetur adipisicing elit. Consequuntur, ea?',
         facebook: '#',
-        instagram: '#',
-        linkedin: '#'
+        instagram: 'https://www.instagram.com/yuvatejapedamallu.m/',
+        linkedin: 'https://www.linkedin.com/in/yuva-teja-pedamallu-4b1274190',
+        github: 'https://github.com/Teja-eng'
     },
 ]
 

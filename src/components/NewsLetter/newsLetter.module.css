@@ -29,10 +29,7 @@
 .card {
   background-color: #fff;
   position: absolute;
-  bottom: -30%;
-  /* top: 50%;
-  left: 50%;
-  transform: translate(-50%, 20%); */
+  bottom: -40%;
   box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.2);
   padding: 40px;
   border-radius: 10px;
@@ -53,3 +50,11 @@
     max-width: 200px;
   }
 } */
+
+.link {
+  white-space: pre-wrap; /* CSS3 */
+  white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+  white-space: -pre-wrap; /* Opera 4-6 */
+  white-space: -o-pre-wrap; /* Opera 7 */
+  word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
