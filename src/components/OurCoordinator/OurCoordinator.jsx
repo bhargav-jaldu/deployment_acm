@@ -139,15 +139,15 @@ const OurCoordinator = () => {
             <div className={styles.wrapper}>
             {/* box1 */}
             <div className={styles.box1} data-aos="fade-right">
-                <Typography variant="h4">Name: </Typography>
+                <Typography variant="h4" className={styles.titleBox}>Name: </Typography>
                 <Typography variant="h5" style={{fontWeight: '400'}}>C Yagnesh</Typography>
                 <Typography variant="body1" style={{fontWeight: '300'}}>President at ACM_VIT-AP University</Typography>
             </div>
 
             {/* box2 */}
             <div className={styles.box2} data-aos="fade-left">
-                <Typography variant="h4">About: </Typography>
-                <Typography variant="body1" style={{fontWeight: '300'}}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt fugiat laboriosam minus officiis tempore ex nostrum eligendi deserunt modi, cum illo ullam doloremque,.</Typography>
+                <Typography variant="h4" className={styles.titleBox}>About: </Typography>
+                <Typography variant="body1" style={{fontWeight: '300'}}>Currently, I am pursuing my UG at VIT_AP in CSE With specialization in AI. I can see how computer technology can be pivotal in handling a human-crisis situation that is where my interest-lies and got inspired to became an AI Engineer, I may be just a cog in the huge universe of technology, but I want to be the cog that makes a better world for all living beings.</Typography>
             </div>
 
             {/* box3 */}
@@ -167,8 +167,8 @@ const OurCoordinator = () => {
 
             {/* box4 */}
             <div className={styles.box4} data-aos="fade-left">
-                <div className={styles.experienceItems}>
-                    <Typography variant="h4">Experience: </Typography>
+                <div className={styles.experienceItems} >
+                    <Typography variant="h4" className={styles.titleBox}>Experience: </Typography>
                     <Typography variant="h5" style={{fontWeight: '400'}}>President</Typography>
                     <Typography variant="body1">VIT-AP University</Typography>
                     <Typography variant="body1">Oct 2021 - present . 4 mos</Typography>
@@ -201,7 +201,7 @@ const OurCoordinator = () => {
 
             {/* box5 */}
             <div className={styles.box5} data-aos="fade-right">
-                <Typography variant="h4">Connect:</Typography>
+                <Typography variant="h4" className={styles.titleBox}>Connect:</Typography>
                 <div className={styles.icons}>
                     <div className={styles.images}>
                         <a href="yagneshnaidu1234@gmail.com" target="_blank"><img src={mail} alt="mail" /></a>

@@ -10,6 +10,7 @@ import NARVA_KAVITHA from './Admin_Dept/NARVA_KAVITHA.jpg'
 import RAJKANWAR_SINGH from './Admin_Dept/RAJKANWAR_SINGH.png'
 import YASHWANTH_KUMAR from './Admin_Dept/YASHWANTH_KUMAR.jpg'
 import JULURI_HARSHINI from './Admin_Dept/JULURI_HARSHINI.jpg'
+import benny from './Admin_Dept/benny.jpg'
 
 const admin = [
     {
@@ -27,6 +28,26 @@ const admin = [
         tag: 'Vice President',
         backgroundImage: PHANISWAR_REDDY,
         name: 'PHANISWAR REDDY',
+        description: 'Lorem ipsum dolor sit a and amet consectetur adipisicing elit. Consequuntur, ea?',
+        facebook: '#',
+        instagram: '#',
+        linkedin: '#'
+    },
+    {
+        id: 6,
+        tag: 'Executive Secretary',
+        backgroundImage: LOHITHA_RANI_CHINTALAPATI,
+        name: 'Lohitha Rani Chintalapati',
+        description: 'Lorem ipsum dolor sit a and amet consectetur adipisicing elit. Consequuntur, ea?',
+        facebook: '#',
+        instagram: '#',
+        linkedin: '#'
+    },
+    {
+        id: 5,
+        tag: 'Secretary',
+        backgroundImage:benny,
+        name: 'B BENNY SAI',
         description: 'Lorem ipsum dolor sit a and amet consectetur adipisicing elit. Consequuntur, ea?',
         facebook: '#',
         instagram: '#',
@@ -52,26 +73,8 @@ const admin = [
     //     instagram: '#',
     //     linkedin: '#'
     // },
-    {
-        id: 5,
-        tag: 'Secretary',
-        backgroundImage:B_BENNY_SAI,
-        name: 'B BENNY SAI',
-        description: 'Lorem ipsum dolor sit a and amet consectetur adipisicing elit. Consequuntur, ea?',
-        facebook: '#',
-        instagram: '#',
-        linkedin: '#'
-    },
-    {
-        id: 6,
-        tag: 'Executive Secretary',
-        backgroundImage: LOHITHA_RANI_CHINTALAPATI,
-        name: 'Lohitha Rani Chintalapati',
-        description: 'Lorem ipsum dolor sit a and amet consectetur adipisicing elit. Consequuntur, ea?',
-        facebook: '#',
-        instagram: '#',
-        linkedin: '#'
-    },
+    
+    
     {
         id: 7,
         tag: 'Admin department-treasurer',
