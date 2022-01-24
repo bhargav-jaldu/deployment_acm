@@ -64,7 +64,7 @@ const OurCoordinator = () => {
                 {/* box2 */}
                 <div className={styles.box2} data-aos="fade-left">
                     <Typography variant="h4" className={styles.titleBox}>About: </Typography>
-                    <Typography variant="body1" style={{fontWeight: '300'}}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt fugiat laboriosam minus officiis tempore ex nostrum eligendi deserunt modi, cum illo ullam doloremque/</Typography>
+                    <Typography variant="body1" style={{fontWeight: '300'}}>Associate Professor, School of Computer Science & Engineering, VIT-AP University</Typography>
                 </div>
 
                 {/* box3 */}
