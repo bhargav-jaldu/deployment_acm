@@ -19,17 +19,6 @@ const lead =[
         github: 'https://github.com/mahesh-11102'
     },
     {
-        id: 2,
-        tag: 'Creative Lead',
-        backgroundImage: shankar,
-        name: 'Shankar jagatha',
-        description: 'Lorem ipsum dolor sit a and amet consectetur adipisicing elit. Consequuntur, ea?',
-        facebook: '#',
-        instagram: 'https://www.instagram.com/shankar_jagatha/?hl=en',
-        linkedin: 'https://www.linkedin.com/in/shankar-jagatha-b05b52205/',
-        github: 'https://github.com/ShankarJagatha'
-    },
-    {
         id: 3,
         tag: 'P&R Lead',
         backgroundImage: Harsha_P_R,
@@ -39,6 +28,28 @@ const lead =[
         instagram: 'https://www.instagram.com/abhimanyu_.m/',
         linkedin: 'https://in.linkedin.com/in/harsha-magapu-aba733196',
         github: 'https://github.com/MagapuHarsha'
+    },
+    {
+        id: 6,
+        tag: 'Event Management Lead',
+        backgroundImage: yuva_Teja_event,
+        name: 'Yuva Teja',
+        description: 'Lorem ipsum dolor sit a and amet consectetur adipisicing elit. Consequuntur, ea?',
+        facebook: '#',
+        instagram: 'https://www.instagram.com/yuvatejapedamallu.m/',
+        linkedin: 'https://www.linkedin.com/in/yuva-teja-pedamallu-4b1274190',
+        github: 'https://github.com/Teja-eng'
+    },
+    {
+        id: 2,
+        tag: 'Creative Lead',
+        backgroundImage: shankar,
+        name: 'Shankar jagatha',
+        description: 'Lorem ipsum dolor sit a and amet consectetur adipisicing elit. Consequuntur, ea?',
+        facebook: '#',
+        instagram: 'https://www.instagram.com/shankar_jagatha/?hl=en',
+        linkedin: 'https://www.linkedin.com/in/shankar-jagatha-b05b52205/',
+        github: 'https://github.com/ShankarJagatha'
     },
     {
         id: 4,
@@ -61,17 +72,6 @@ const lead =[
         instagram: '#',
         linkedin: 'https://www.linkedin.com/in/priyanka-batchu-38990822a',
         github: 'https://github.com/BatchuPriyanka'
-    },
-    {
-        id: 6,
-        tag: 'Event Management Lead',
-        backgroundImage: yuva_Teja_event,
-        name: 'Yuva Teja',
-        description: 'Lorem ipsum dolor sit a and amet consectetur adipisicing elit. Consequuntur, ea?',
-        facebook: '#',
-        instagram: 'https://www.instagram.com/yuvatejapedamallu.m/',
-        linkedin: 'https://www.linkedin.com/in/yuva-teja-pedamallu-4b1274190',
-        github: 'https://github.com/Teja-eng'
     },
 ]
 
