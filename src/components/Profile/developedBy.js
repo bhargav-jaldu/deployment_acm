@@ -1,7 +1,11 @@
-import bhargav from './DevelopedBy/bhargav.jpeg'
+// import bhargav from './DevelopedBy/bhargav.jpeg'
 import chandra from './DevelopedBy/chandra.jpeg'
-import Kota from './DevelopedBy/Kota.jpg'
+// import Kota from './DevelopedBy/Kota.jpg'
 import bhargavProfile from './DevelopedBy/bhargavProfile.jpg'
+// import bhargav2 from './DevelopedBy/bhargav2.jpg'
+// import bhargav3 from './DevelopedBy/bhargav3.jpg'
+// import bhargav4 from './DevelopedBy/bhargav4.jpg'
+// import bhargav6 from './DevelopedBy/bhargav6.jpg'
 
 const developedBy = [
     {
