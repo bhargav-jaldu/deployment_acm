@@ -52,7 +52,17 @@ const admin = [
         linkedin: 'https://www.linkedin.com/in/lohitha-rani-chintalapati-48756b199',
         github: 'https://github.com/LohithaRaniCh'
     },
-    
+    {
+        id: 6,
+        tag: 'Chief Secretary',
+        backgroundImage:benny,
+        name: 'B Benny Sai',
+        description: 'Lorem ipsum dolor sit a and amet consectetur adipisicing elit. Consequuntur, ea?',
+        facebook: '#',
+        instagram: 'https://www.instagram.com/_ynneb_ias/',
+        linkedin: 'https://www.linkedin.com/in/benny-sai-bellapu-8715461b8/',
+        github: 'https://github.com/benny-git-vit'
+    },
     {
         id: 4,
         tag: 'Director of Internal Affairs',
@@ -75,17 +85,17 @@ const admin = [
         linkedin: 'https://www.linkedin.com/in/karthik-kumar-reddy-kota/',
         github: 'https://github.com/kotakarthikreddy'
    },
-    {
-        id: 6,
-        tag: 'Chief Secretary',
-        backgroundImage:benny,
-        name: 'B Benny Sai',
-        description: 'Lorem ipsum dolor sit a and amet consectetur adipisicing elit. Consequuntur, ea?',
-        facebook: '#',
-        instagram: 'https://www.instagram.com/_ynneb_ias/',
-        linkedin: 'https://www.linkedin.com/in/benny-sai-bellapu-8715461b8/',
-        github: 'https://github.com/benny-git-vit'
-    },
+   {
+    id: 10,
+    tag: 'Administrative incharge',
+    backgroundImage: NARVA_KAVITHA,
+    name: 'Narva Kavitha',
+    description: 'Lorem ipsum dolor sit a and amet consectetur adipisicing elit. Consequuntur, ea?',
+    facebook: '#',
+    instagram: 'https://www.instagram.com/kavitha_narva/',
+    linkedin: 'https://www.linkedin.com/in/narva-kavitha-146028229',
+    github: 'https://github.com/ADITHYA3399'
+},
     {
         id: 7,
         tag: 'Admin department-treasurer',
@@ -96,6 +106,17 @@ const admin = [
         instagram: 'https://www.instagram.com/adithya._.magam/',
         linkedin: 'https://www.linkedin.com/in/pavan-adithya-magam',
         github: 'https://github.com/Pavanadithya'
+    },
+    {
+        id: 16,
+        tag: 'Community Manager ',
+        backgroundImage: savali,
+        name: 'Savali Deshmukh ',
+        description: 'Lorem ipsum dolor sit a and amet consectetur adipisicing elit. Consequuntur, ea?',
+        facebook: '#',
+        instagram: 'https://www.instagram.com/savali_deshmukh/',
+        linkedin: 'https://www.linkedin.com/in/savali-d-2092611a6/',
+        github: 'https://github.com/SavaliD'
     },
     {
         id: 8,
@@ -120,15 +141,37 @@ const admin = [
         github: 'https://github.com/ADITHYA3399'
     },
     {
-        id: 10,
-        tag: 'Administrative incharge',
-        backgroundImage: NARVA_KAVITHA,
-        name: 'Narva Kavitha',
+        id: 13,
+        tag: 'Admin department',
+        backgroundImage: JULURI_HARSHINI,
+        name: 'JULURI HARSHINI',
         description: 'Lorem ipsum dolor sit a and amet consectetur adipisicing elit. Consequuntur, ea?',
         facebook: '#',
-        instagram: 'https://www.instagram.com/kavitha_narva/',
-        linkedin: 'https://www.linkedin.com/in/narva-kavitha-146028229',
-        github: 'https://github.com/ADITHYA3399'
+        instagram: 'https://www.instagram.com/_harshini_juluri_/',
+        linkedin: 'https://www.linkedin.com/in/juluri-harshini-98aa42210',
+        github: 'https://www.linkedin.com/in/juluri-harshini-98aa42210'
+    },
+    {
+        id: 15,
+        tag: 'Admin department',
+        backgroundImage: Tejaswi_Bandla,
+        name: 'Tejaswi Bandla',
+        description: 'Lorem ipsum dolor sit a and amet consectetur adipisicing elit. Consequuntur, ea?',
+        facebook: '#',
+        instagram: 'https://www.instagram.com/_sasi.preetham_/',
+        linkedin: 'https://www.linkedin.com/in/sasi-preetham-7348821b7',
+        github: 'https://www.linkedin.com/in/sasi-preetham-7348821b7'
+    },
+    {
+        id: 14,
+        tag: 'Admin department',
+        backgroundImage: Sasi_Preetham_Pamarthi,
+        name: 'Sasi Preetham Pamarthi',
+        description: 'Lorem ipsum dolor sit a and amet consectetur adipisicing elit. Consequuntur, ea?',
+        facebook: '#',
+        instagram: 'https://www.instagram.com/_sasi.preetham_/',
+        linkedin: 'https://www.linkedin.com/in/sasi-preetham-7348821b7',
+        github: 'https://www.linkedin.com/in/sasi-preetham-7348821b7'
     },
     {
         id: 11,
@@ -152,50 +195,6 @@ const admin = [
         instagram: 'https://www.instagram.com/yashwanth8748/',
         linkedin: 'https://www.linkedin.com/in/yashwanth-namburi-1284051b9/',
         github: 'https://github.com/SoothingYash'
-    },
-    {
-        id: 13,
-        tag: 'Admin department',
-        backgroundImage: JULURI_HARSHINI,
-        name: 'JULURI HARSHINI',
-        description: 'Lorem ipsum dolor sit a and amet consectetur adipisicing elit. Consequuntur, ea?',
-        facebook: '#',
-        instagram: 'https://www.instagram.com/_harshini_juluri_/',
-        linkedin: 'https://www.linkedin.com/in/juluri-harshini-98aa42210',
-        github: 'https://www.linkedin.com/in/juluri-harshini-98aa42210'
-    },
-    {
-        id: 14,
-        tag: 'Admin department',
-        backgroundImage: Sasi_Preetham_Pamarthi,
-        name: 'Sasi Preetham Pamarthi',
-        description: 'Lorem ipsum dolor sit a and amet consectetur adipisicing elit. Consequuntur, ea?',
-        facebook: '#',
-        instagram: 'https://www.instagram.com/_sasi.preetham_/',
-        linkedin: 'https://www.linkedin.com/in/sasi-preetham-7348821b7',
-        github: 'https://www.linkedin.com/in/sasi-preetham-7348821b7'
-    },
-    {
-        id: 15,
-        tag: 'Admin department',
-        backgroundImage: Tejaswi_Bandla,
-        name: 'Tejaswi Bandla',
-        description: 'Lorem ipsum dolor sit a and amet consectetur adipisicing elit. Consequuntur, ea?',
-        facebook: '#',
-        instagram: 'https://www.instagram.com/_sasi.preetham_/',
-        linkedin: 'https://www.linkedin.com/in/sasi-preetham-7348821b7',
-        github: 'https://www.linkedin.com/in/sasi-preetham-7348821b7'
-    },
-    {
-        id: 16,
-        tag: 'Community Manager ',
-        backgroundImage: savali,
-        name: 'Savali Deshmukh ',
-        description: 'Lorem ipsum dolor sit a and amet consectetur adipisicing elit. Consequuntur, ea?',
-        facebook: '#',
-        instagram: 'https://www.instagram.com/savali_deshmukh/',
-        linkedin: 'https://www.linkedin.com/in/savali-d-2092611a6/',
-        github: 'https://github.com/SavaliD'
     },
 
 
