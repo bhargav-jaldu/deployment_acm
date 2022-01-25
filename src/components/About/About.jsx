@@ -4,6 +4,7 @@ import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import {Typography, Button} from '@material-ui/core'
 import Aos from 'aos'
 import "aos/dist/aos.css"
+import aboutImg from './aboutImg.jpg'
 
 const About = () => {
 
@@ -28,7 +29,7 @@ const About = () => {
                 </div> */}
                 <div className={styles.image} data-aos="fade-right">
     <div className={styles.imageContainer}>
-        <img className={styles.image__img} src="https://www.vidyavision.com/CollegeUploads/Photos/2020-30-11-11-02-31_EfOFC0IU8AA1hOb.jpg" alt="Vit" />
+        <img className={styles.image__img} src={aboutImg} alt="Vit" />
     </div>
     <div className={`${styles.image__overlay} ${styles.image__overlay__primary}`}>
         <div className={styles.image__title}>VIT-AP</div>
@@ -92,7 +93,7 @@ Dr. G. Viswanathan to improve the world through transformative education by fost
                         <Typography variant='body1' className={styles.point}>ACM-VITAP continues to pursue projects with diligence and ambition.Technology is their cause, objective, vision, and mission.</Typography>
                     </div>
 
-                    <button className={styles.join}> <a href="https://chat.whatsapp.com/JOU6jHJNVPq2PZ8jO4iuOO" target="_blank">WhatsApp</a> <ArrowForwardIosIcon style={{fontSize: '20px'}} /></button>
+                    <button className={styles.join}> <a href="https://chat.whatsapp.com/DeaBpUPFePk6DdxDYfc93i" target="_blank">WhatsApp</a> <ArrowForwardIosIcon style={{fontSize: '20px'}} /></button>
                 </div>
 
                 <div className={styles.iframe} data-aos="fade-right">

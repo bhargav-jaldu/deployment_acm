@@ -3,7 +3,7 @@ import PHANISWAR_REDDY from './Admin_Dept/PHANISWAR_REDDY.jpeg'
 import LOHITHA_RANI_CHINTALAPATI from './Admin_Dept/Lohitha.jpeg'
 // import B_BENNY_SAI from './Admin_Dept/B_BENNY_SAI.jpg'
 import MAGAM_PAVAN_ADITHYA from './Admin_Dept/MAGAM_PAVAN_ADITHYA.jpg'
-import kota from './Admin_Dept/Kota.jpg'
+// import kota from './Admin_Dept/Kota.jpg'
 import eswara from './Admin_Dept/eswara.jpeg'
 import NERELLA_ADITHYA from './Admin_Dept/NERELLA_ADITHYA.jpg'
 import NARVA_KAVITHA from './Admin_Dept/NARVA_KAVITHA.jpg'
@@ -17,6 +17,7 @@ import Sasi_Preetham_Pamarthi from './Admin_Dept/Sasi_Preetham_Pamarthi.jpeg'
 import yagnesh from './Admin_Dept/yagnesh.jpg'
 import savali from './Admin_Dept/savali.jpeg'
 import benny from './Admin_Dept/benny.jpg'
+import kotaKarthik from './Admin_Dept/kotaKarthik.jpg'
 
 const admin = [
     {
@@ -77,7 +78,7 @@ const admin = [
     {
         id: 5,
         tag: 'Club Manager',
-        backgroundImage: kota,
+        backgroundImage: kotaKarthik,
         name: 'Karthik Kumar Reddy Kota',
         description: 'Lorem ipsum dolor sit a and amet consectetur adipisicing elit. Consequuntur, ea?',
         facebook: '#',

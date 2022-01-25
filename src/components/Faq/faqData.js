@@ -13,6 +13,11 @@ const faq = [
         id: 3, 
         question: 'What are the outcomes of ACM chapter?',
         answer: 'ACM strengthens the computing profession’s collective voice through strong leadership, promotion of the highest standards, and recognition of technical excellence.'
+    },
+    {
+        id: 4, 
+        question: 'What is ACMW and what are the advantages of joining it?',
+        answer: 'ACM-W supports, celebrates, and advocates internationally for the full engagement of women in all aspects of the computing field, providing a wide range of programs and services to ACM members and working in the larger community to advance the contributions of technical women. ACM-W Student Chapters are created to help recruit and retain students in computing programs.'
     }
 ]
 

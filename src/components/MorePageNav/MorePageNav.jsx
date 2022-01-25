@@ -43,7 +43,7 @@ const MorePageNav = () => {
         <nav className={styles.nav}>
             <div className={styles.logo}>
                 <div className={styles.logoImage}>
-                    <img src={Acmlogo} alt="Acm Logo" />
+                    <a href="/"><img src={Acmlogo} alt="Acm Logo" /></a>
                 </div>
                 <div className={styles.text_typing}>
                     <h2>ACM VIT-AP</h2>

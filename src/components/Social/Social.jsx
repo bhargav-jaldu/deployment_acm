@@ -15,25 +15,21 @@ const Social = () => {
         <i className="fab fa-linkedin-in"></i>
           <div class="tooltip">Like:189</div>
         </a>
-        {/* <a href="" class="social-icon social-icon--github">
-        <i class="fab fa-github"></i>
-            <div class="tooltip">Like:250</div>
-          </a>
-          <a href="" class="social-icon social-icon--twitter">
-          <i class="fab fa-twitter"></i>
-            <div class="tooltip">Followers:13K</div>
-          </a> */}
           <a href="https://www.youtube.com/channel/UCbWtVqcVYvn06UqmYoAEoUA" target="_blank" class="social-icon social-icon--youtube">
            <i class="fab fa-youtube"></i>
             <div class="tooltip">Subscriber:156</div>
           </a>
           <a href="https://www.instagram.com/acm_vitap/" target= "_blank" class="social-icon social-icon--instagram">
-          <i className="fab fa-instagram"></i>
-            <div class="tooltip">Followers:990</div>
+          <i class="fab fa-instagram"></i>
+            <div class="tooltip">Follower:500</div>
           </a>
           <a href="https://www.facebook.com/ACM.StudentChapter.VITAP/" target= "_blank" class="social-icon social-icon--facebook">
           <i class="fab fa-facebook-f"></i>
             <div class="tooltip">Friends:200</div>
+          </a>
+          <a href="https://github.com/ACM-VITAP" target= "_blank" class="social-icon social-icon--facebook">
+          <i class="fab fa-github"></i>
+            <div class="tooltip">Followers:15</div>
           </a>
     </div>
 </div>

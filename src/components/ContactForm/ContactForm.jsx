@@ -97,13 +97,16 @@ const ContactForm = () => {
                 <div className={styles.infoContainer} data-aos="fade-left">
                     <h1>Contact Information</h1>
 
-                    <div className={styles.content}>
-                        <LocationOnIcon />
-                        <p>Vellore Institute of Technology, Amaravathi</p>
+                    <div className={styles.contentImag}>
+                        <img className={styles.imageLogo} src="https://acmvitap.in/assets/img/acm_logo%20-%20Copy.png" alt="acm Logo" />
                     </div>
                     <div className={styles.content}>
                         <EmailIcon />
                         <p> &nbsp;acm.studentchapter@vitap.ac.in</p>
+                    </div>
+                    <div className={styles.content}>
+                        <LocationOnIcon />
+                        <p>Vellore Institute of Technology, Amaravathi</p>
                     </div>
                     {/* <div className={styles.content}>
                         <PhoneIcon />

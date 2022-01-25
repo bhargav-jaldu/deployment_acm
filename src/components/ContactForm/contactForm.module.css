@@ -146,3 +146,17 @@ textarea {
 .success {
   color: green;
 }
+
+.imageLogo {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.contentImag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: black; */
+}

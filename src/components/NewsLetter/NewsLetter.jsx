@@ -14,8 +14,9 @@ const NewsLetter = () => {
     return (
         <div className={styles.container} data-aos="zoom-out">
             <h1>News Letter</h1>
+            {/* <p>Technology Evolution is ACM'S local coverage</p> */}
             <div className={styles.card} data-aos="fade-up">
-                <a href="/#" target="_blank" className={styles.link}>https://www.instagram.com/acm_vitap/</a>
+                <a href="https://drive.google.com/drive/folders/1Injn891YXjtCaIK-SGUVboa-RoYhn6Kj?usp=sharing" target="_blank" className={styles.link}>Our Mailing List</a>
             </div>
         </div>
     )

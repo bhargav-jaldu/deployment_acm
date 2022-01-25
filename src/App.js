@@ -27,6 +27,7 @@ import faqData from './components/Faq/faqData'
 import admin from './components/Profile/Admin'
 import lead from './components/Profile/lead'
 import developedBy from './components/Profile/developedBy'
+import managingBy from './components/Profile/managingBy'
 
 // time line
 import Timeline from './components/Timeline/Timeline'
@@ -75,7 +76,8 @@ const App = () => {
             // <Profile data={markData} title={'Marketing Department'}/>, 
             <Profile data={admin} title={'Admins'} />,
             <Profile data={lead} title={'Leads'} />,
-            <Profile data={developedBy} title={'Developed and Managing By'} />,
+            <Profile data={developedBy} title={'Developed By'} />,
+            <Profile data={managingBy} title={'Managing By'} />,
             <Social /> , <Footer />]} />
             {/* more */}
                     <Route path='/more' element={[<MorePageNav />, <NewsLetter />, <Timeline  />,

@@ -24,15 +24,16 @@ const Footer = () => {
           {/* <p class="text-muted">Follow us..Let us be Social!</p> <br /> */}
           <h4>VIT-AP University, G-30, Inavolu, Beside AP <br/>  Secretariat Amaravati, Andhra Pradesh </h4>
           <h4>522237</h4><br />
-          <h5>acm.studentchapter@gmail.com</h5> <br />
-          <p><a href="https://chat.whatsapp.com/JOU6jHJNVPq2PZ8jO4iuOO">Whatsapp</a></p> <br />
+          <h5>acm.studentchapter@vitap.ac.in</h5> <br />
+          <p><a href="https://chat.whatsapp.com/DeaBpUPFePk6DdxDYfc93i" target="_blank">Whatsapp</a></p> <br />
           <p class="pt-4 text-muted">
           <span style={{fontFamily: 'Comfortaa', fontSize: '12px'}}>Copyright © 2022 by ACM Student Club</span></p> <br />
         </div>
         </div>
 
         <div className="developed">
-            <h3>Developed and Managing By <a href="https://www.linkedin.com/in/bhargav-jaldu-697488196/" target="_blank">Bhargav Jaldu</a>, <a href="https://www.linkedin.com/in/inukollu-yasas-chandra-490732120/" target="_blank">Yasas Inukollu</a> and <a href="https://kotakarthikreddy.github.io/" target="_blank">Kota Karthik</a> </h3>
+            <h3>Developed By <a href="https://www.linkedin.com/in/bhargav-jaldu-697488196/" target="_blank">Bhargav Jaldu</a>, <a href="https://www.linkedin.com/in/inukollu-yasas-chandra-490732120/" target="_blank">Yasas Inukollu</a></h3> <br />
+            <h3>Managing By <a href="https://kotakarthikreddy.github.io/" target="_blank">Kota Karthik</a>, <a href="https://www.linkedin.com/in/trilok-sai-charan-tunuguntla-b2b1b6163/" target="_blank">Trilok Sai Charan T</a> and <a href="https://www.linkedin.com/in/benny-sai-bellapu-8715461b8/" target="_blank">B Benny Sai</a> </h3>
         </div>
   </footer>
     )
