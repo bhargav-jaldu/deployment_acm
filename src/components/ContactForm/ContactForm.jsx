@@ -37,7 +37,7 @@ const ContactForm = () => {
             setError(false)
             // http://localhost:3001/
             // https://acmcontact.herokuapp.com/
-        axios.post('https://acmcontact.herokuapp.com/', {
+        axios.post('https://acmvitap.herokuapp.com/', {
             name: name,email: email, message: message
         })
         .then(res => {
