@@ -30,7 +30,7 @@ const Ideology = () => {
             <div class="ideologycontainer">
                 <div class="box box-cyan box-push">
                     <Typography variant="h4" className="ideoTI" style={{fontWeight: '300'}}>Excellence</Typography >
-                    <Typography variant="body1" className="desc">To bring technical excellence among students</Typography >
+                    <Typography variant="body1" className="desc">T bring technical excellence among students</Typography >
                     <img src={excel} alt="Excellence Image" />
                 </div>
 
